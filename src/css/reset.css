@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+main {
+    color: #0000008e;
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-titulo {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-titulo h2, .container-titulo h3 {
+    margin: 0;
+}
+
+.topo {
+    background-color: #00cad1;
+    width: 100%;
+}
+
+.container-titulo p {
+    line-height: 1.5ma;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.topo-titulo {
+    font-weight: 600;
+    font-size: 28px;
+    counter-reset: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-titulo a {
+    display: flex;
+}
+
+.topo-logo {
+    height: 60px;
+}
+
+.topo-logo:hover {
+    transition: 350ms linear;
+    transform: scale(1.2);    
+}
+
+.topo-links {
+    display: flex;
+}
+
+.topo-link {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.topo-link:hover  {
+    color: #004b4c;
+    transition: 350ms linear;
+    transform: scale(1.2); 
+}
+
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer p {
+    line-height: 30px;
+}
